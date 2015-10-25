@@ -69,14 +69,8 @@ do
     new_fan_speed=200
   elif (( ${current_max_temp} >= 68000 )); then
     new_fan_speed=130
-  elif (( ${current_max_temp} >= 66000 )); then
-    new_fan_speed=70 
-  elif (( ${current_max_temp} >= 63000 )); then
-    new_fan_speed=65 
-  elif (( ${current_max_temp} >= 60000 )); then
-    new_fan_speed=60
-  elif (( ${current_max_temp} >= 58000 )); then
-    new_fan_speed=50
+  elif (( ${current_max_temp} >= 62000 )); then
+    new_fan_speed=75
   elif (( ${current_max_temp} >= 55000 )); then
     new_fan_speed=30
   else
